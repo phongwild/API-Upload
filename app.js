@@ -34,8 +34,8 @@ app.use((err, req, res, next) => {
     res.status(statusCode).json({ message });
 });
 
-// app.listen(3000, () => {
-//     console.log('Server started');
-// });
+app.listen(3000, () => {
+    console.log('Server started');
+});
 
 module.exports = app;
